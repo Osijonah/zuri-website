@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eb5850;
+}
+.red-text{
+    color: #eb5850;
+}
+.intro{
+    background-image: url('zuri1 imgs/hero-bg.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: antiquewhite; */
+}
+
+#logo{
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+#logo img{
+    margin: auto;
+}
+.logo-img{
+        margin: auto;
+        margin-top: 69px;
+        margin-left: 100px;
+        margin-bottom: 143px;
+        text-align: center;
+}        
+.lbg{
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lbg h2{
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.lbg{
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;;
+    opacity: 0.9;
+}
+
+.btn-div {
+    margin-top: 92px;
+}
+
+.btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+.program{
+    box-sizing: border-box;
+    padding: 100px 60px 50px 60px;
+}
+.pro-intro{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.programs{
+    display: flex;
+    justify-content: space-around;
+}
+.programs>div{
+    background-color: rgba(252, 248, 252, 0.5);
+    color: #514949;
+    height: 500px;
+    line-height: 30px;
+    padding: 20px;
+    width: 30%;
+}
+.logos{
+    background-color: #fff;
+    height: 30px;
+    margin-bottom: 120px;
+    width: 60px;
+    /* padding: 20px 20px; */
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+footer div{
+    width: 300px;
+}
+.socials{
+    margin-right: 5px;
+    width: 30px;
+}
+.copyright{
+    color: #514949;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.plus{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+ul{
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+.rlink{
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.section2{
+    margin: 0 auto;
+    width: 100%;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px;
+}
+/* .enrollH{
+    float: right;
+} */
+.emoji, button{
+    background-color: red;
+}
+.emoji{
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+}

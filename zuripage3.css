@@ -1,0 +1,245 @@
+*{
+    /* margin: 10px; */
+    left: 0;
+    right: 0;
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    border-radius: 0 0 6px 0;
+    box-sizing: border-box;
+    padding: 11px 40px;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    font-size: 35px;
+}
+.red-text{
+    color: #E7332B;
+}
+.btn-red{
+    background-color: #E7332B;
+    color: #fff;
+}
+.btn-silver{
+    background-color: rgb(136, 134, 134);
+    color: #fff;
+}
+nav{
+    margin-right: 0;
+    right: 0;
+}
+ul{
+    float: right;
+    width: 40%;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+ul li:hover{
+    background-color: rgba(235, 235, 235, 0.5);
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 100px 5px;
+    width: 100%;
+}
+.sec1-div{
+    padding: 200px 5px;
+    width: 40%;
+}
+.sec1-h{
+    display: inline-block;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 36px;
+}
+.sec1-p{
+    margin-bottom: 36px;
+}
+.sec1-image {
+    height: 30%;
+    width: 40%;
+}
+
+.sec1-img {
+    height: 80%;
+    width: 100%;
+}
+.impact{
+    background-image: url('zuri3 imgs/bgsection2.063bd869082548bafa74.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 100px;
+    margin: auto 0;
+    /* padding: 100px; */
+    width: 100%;
+}
+.impact-div1{
+    width: 50%;
+}
+.impact-div2{
+    width: 40%;
+}
+.impact-div1 div{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.sec2-H{
+    color: black;
+    font-size: 20px;
+    line-height: 5px;
+}
+.sec2-h{
+    color: silver;
+    font-size: 18px;
+}
+.impact-img-div{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+}
+.img-ger, .img-eng, .img-nig{
+    position: absolute;
+    left: 22%;
+    text-align: center;
+    width: 40px;
+}
+.img-ind, .img-usa{
+    position: absolute;
+    left: 22%;
+    text-align: center;
+    width: 35px;
+} 
+.sec2-img{
+    width: 100%;
+}
+.skills{
+    box-sizing: border-box;
+    height: 440px;
+    padding: 50px 10px;
+}
+.skill{
+    background-color: #fff;
+    border-radius: 10px;
+    color: rgb(104, 104, 104);
+    box-shadow: 0 0 2ch 2ch rgb(235, 235, 235, 0.5);
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 14px 30px;
+    transition: all 0.5s;
+}
+.skill:hover {
+    transform: translateY(-20px);
+}
+.work{
+    background-color: #fff;
+    border-radius: 10px;
+    color: rgb(104, 104, 104);
+    box-shadow: 0 0 2ch 2ch rgba(235, 235, 235, 0.5);
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 14px 30px;
+    transition: all 0.5s;
+}
+.work:hover{
+    transform: translateY(-20px);
+}
+.why-us{
+    background-color: rgb(255, 248, 229);
+    padding: 30px;
+}
+.why-div{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* margin: 10px; */
+}
+.why-divs{
+    background-color: #fff;
+    border-radius: 0 0 20px 0;
+    color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    margin: 0 auto;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+.why-divs:hover{
+    background-color: #000;
+    color: #fff;
+}
+.why-divs div{
+    /* margin: auto;
+    width: 80px; */
+    text-align: center;
+}
+.why-divs p{
+    text-align: center;
+}
+.btns{
+    text-align: center;
+}
+.btn-red{
+    margin-right: 10px;
+}
+footer{
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    height: 200px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+}
+.footer-right p{
+    text-align: right;
+}
+.social{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.social:last-child{
+    height: 40px;
+    width: 40px;
+}
+footer a{
+    color: #fff;
+}
+.socials, .footer-left img{
+    margin-bottom: 40px;
+}
