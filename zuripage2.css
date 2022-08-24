@@ -1,36 +1,57 @@
-.plus{
-    display: inline-block;
+*{
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 a{
     text-decoration: none;
     margin-left: 10px;
 }
-ul{
+nav ul{
     display: inline-block;
 }
-ul li{
+nav ul li{
     display: inline-block;
-}
-.rlink{
-    display: flex;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-.section2{
-    margin: 0 auto;
-    width: 100%;
 }
 button{
     border: none;
     border-radius: 20px;
     outline: none;
-    padding: 10px 20px;
+    padding: 11px 30px;
 }
-/* .enrollH{
-    float: right;
-} */
+.red-text{
+    color: red;
+}
+.logo{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.rlink nav ul{
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 15px;
+}
+.rlink nav{
+   padding-top: 10px; 
+}
+.nav{
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.rlink nav{
+    margin-right: 50px;
+}
+.enrollH{
+    padding: 10px;
+}
+.enrollH label{
+    position: relative;
+}
 .emoji, button{
     background-color: red;
 }
@@ -39,8 +60,322 @@ button{
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
-    height: 60px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 60px;
+    height: 70px;
+    padding: 10px;
+    width: 70px;
+    position: absolute;
+    left: -50px;
+    top: -25px;
+}
+.section2{
+    box-sizing: border-box;
+    /* padding-top: 100px;
+    padding-bottom: 50px; */
+    padding: 100px 120px 50px 120px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.section2 div{
+    position: relative;
+}
+/* .section2 div span{
+    margin: 0 auto;
+} */
+.section2 p{
+    text-align: center;
+}
+.p1{
+    display: block;
+    text-align: center;
+}
+/* .center{
+    margin: 0 auto;
+} */
+.section2 h1{
+    font-size: 50px;
+    margin: 0 auto 30px auto;
+    width: 50%;
+    text-align: center;
+}
+.lady1{
+    position: absolute;
+    left: 1%;
+    /* margin-right: 20px; */
+    top: 150px;
+    width: 28%;
+}
+.male1{
+    position: absolute;
+    right: 1%;
+    /* margin-left: 10px; */
+    top: 150px;
+    width: 28%;
+}
+.btp{
+    color: #514949;
+    margin: 40px auto;
+    width: 32%;
+}
+.maleface{
+    left: 30%;
+    position: absolute;
+    width: 40px;
+}
+.div-section3{
+    margin-bottom: 100px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 h2, .section3 p{
+    width: 30%;
+}
+.section3 img{
+    /* height: 300px; */
+    width: 200px;
+}
+.center{
+    align-self: center;
+}
+.ingressive{
+    text-align: center;
+}
+.section3 .left{
+    font-size: 25px;
+    text-align: center;
+}
+.read-more{
+    text-decoration: underline;
+    color: greenyellow;
+}
+/* #why-us{
+    
+} */
+.why-intro span{
+    font-size: 30px;
+}
+.why-intro p{
+    font-size: 50px;
+    font-weight: 700;
+    width: 65%;
+}
+.why-body-div{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 90px;
+    width: 100%;
+}
+.num{
+    font-size: 40px;
+    font-weight: 700;
+}
+.num, .title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.body{
+    color: rgb(97, 97, 97);
+}
+.why-body{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 1.5ch 1.5ch rgb(255, 249, 250);
+    box-sizing: border-box;
+    height: 300px;
+    margin-bottom: 20px;
+    /* margin-left: 0;
+    margin-right: 0; */
+    padding: 20px;
+    width: 32%;
+}
+.remote, .remote .body{
+    background-color: red;
+    color: #fff;
+}
+.section4{
+    background-color: rgba(240, 16, 16, 0.9);
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    margin-top:70px;
+    padding: 100px;
+    width: 100%;
+}
+.text4{
+    width: 40%;
+}
+.text4 p{
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 75%;
+}
+.large-text4{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.enroll4{
+    background-color: #fff;
+    color: red;    
+}
+.unclickable{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.unclickable>span{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 6px 10px;
+    position: relative;
+    width: 170px;
+}
+.unclickable span span{
+    box-sizing: border-box;
+    height: 30px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 0;
+    /* line-height: 30px; */
+    white-space: nowrap;
+}
+.icon4{
+    margin-right: 10px;
+    width: 30px;
+}
+.img4{
+    border: 1px solid black;
+    position: relative;
+    width: 50%;
+}
+.img4 img{
+    margin-bottom: 40px;
+    margin-top: 0;
+    position: absolute;
+    top: -10;
+    width: 100%;
+}
+#stacks{
+    padding: 90px;
+}
+.stacks{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.stacks div{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5ch 1.5ch rgb(255, 249, 250);
+    box-sizing: border-box;
+    height: 250px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 32%;
+}
+.stacks div img{
+    margin-right: 10px;
+    width: 30px;
+}
+.laravel, .react, .django{
+    width: 200px;
+}
+.html, .css{
+    width: 20px;
+}
+.figma{
+    width: 1000%;
+}
+.stacks p{
+    width: 100%;
+    text-align: center;
+}
+.faq-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.faq2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.faq-div{
+    border: 1px solid #000;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+.faq-div p{
+    display: none;
+    clear: both;
+}
+.faq-div span{
+    position: absolute;
+    font-weight: 900;
+    right: 10px;
+    top: 40%;
+}
+.got-que{
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+/* .got-que span{
+    text-align: center;
+} */
+.structure{
+    padding: 10px 10%;
+    
+}
+.structure-intro{
+    text-align: center;
+} 
+.protime{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    background-color: #000;
+    border-radius: 30px;
+    box-shadow: 0 0 1.5ch 1.5ch rgb(255, 249, 250);;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 30px 30px;
+    width: 48%;
+}
+.get-started{
+    background-color: rgba(240, 16, 16, 0.9);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 250px;
+    margin: 40px 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.get-started h1{
+    margin: 20px auto;
+    width: 30%;
+}
+.get-started button{
+    background-color: #fff;
+    color: red;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 30px;
 }
